@@ -1,6 +1,9 @@
 * {
     border:2px solid brown;
-background-color: lightgrey;
+
+}
+body {
+    background-color: lightgrey;
 }
 
 .button {
@@ -48,4 +51,34 @@ background-color: lightgrey;
     background-color: yellow; 
     margin: auto;
 
+}
+.pseudo {
+    display: inline-block;
+    width: auto;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid blue;    
+    background-color: yellow; 
+    margin: auto;
+
+}
+
+.pseudo:hover {
+    background-color: aqua;
+}
+div {
+    color: cornflowerblue;
+}
+div:first-child {
+    color: red;
+    display: inline;
+}
+div:last-child {
+    color: darkcyan;
+}
+.pseudo .hideMe:nth-child(2) {
+    display: inline;
+}
+.pseudo .hideMe:nth-child(3) {
+    display: none;
 }
